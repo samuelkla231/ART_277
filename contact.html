@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Contact — Samuel</title>
+</head>
+<body style="margin:0;font-family:Arial, Helvetica, sans-serif;background:#f7fbff;color:#222;">
+
+  <header style="background:#0b3d91;color:white;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;">
+    <div style="font-weight:700;font-size:20px;">Samuel K. Dennis Jr</div>
+    <nav>
+      <a href="index.html" style="color:white;margin:0 10px;text-decoration:none;">Home</a>
+      <a href="about.html" style="color:white;margin:0 10px;text-decoration:none;">About</a>
+      <a href="favorites.html" style="color:white;margin:0 10px;text-decoration:none;">Favorites</a>
+      <a href="portfolio.html" style="color:white;margin:0 10px;text-decoration:none;">Portfolio</a>
+      <a href="contact.html" style="color:white;margin:0 10px;text-decoration:none;font-weight:700;">Contact</a>
+    </nav>
+  </header>
+
+  <main style="max-width:1100px;margin:28px auto;padding:0 16px;">
+    <h1 style="color:#0b3d91;margin-top:0;">Contact Me</h1>
+
+    <div style="display:flex;gap:18px;flex-wrap:wrap;">
+      <!-- Contact form -->
+      <div style="flex:1;min-width:320px;background:white;padding:16px;border-radius:8px;box-shadow:0 8px 20px rgba(0,0,0,0.05);">
+        <form action="#" method="post" style="display:flex;flex-direction:column;gap:10px;">
+          <label style="font-weight:700;">Name</label>
+          <input type="text" name="name" placeholder="Your name" required style="padding:10px;border-radius:6px;border:1px solid #e3eefc;outline:none;">
+          <label style="font-weight:700;">Email</label>
+          <input type="email" name="email" placeholder="you@example.com" required style="padding:10px;border-radius:6px;border:1px solid #e3eefc;outline:none;">
+          <label style="font-weight:700;">Subject</label>
+          <input type="text" name="subject" placeholder="What is this about?" style="padding:10px;border-radius:6px;border:1px solid #e3eefc;outline:none;">
+          <label style="font-weight:700;">Message</label>
+          <textarea name="message" rows="6" placeholder="Write your message..." style="padding:10px;border-radius:6px;border:1px solid #e3eefc;outline:none;"></textarea>
+          <button type="submit" style="padding:10px 14px;background:#0b3d91;color:white;border:none;border-radius:6px;font-weight:700;cursor:pointer;">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Map + FAQ -->
+      <div style="flex:1;min-width:320px;display:flex;flex-direction:column;gap:12px;">
+        <div style="background:white;padding:12px;border-radius:8px;box-shadow:0 8px 20px rgba(0,0,0,0.05);">
+          <h3 style="margin:0 0 8px;">Location</h3>
+          <!-- Simple embedded map iframe (replace src with your map if needed) -->
+          <iframe
+            src="https://www.google.com/maps?q=Paynesville+Liberia&output=embed"
+            width="100%" height="220" style="border:0;border-radius:6px;" allowfullscreen="" loading="lazy"></iframe>
+          <p style="margin:8px 0 0;font-size:13px;color:#555;">Du Port Road, Shara Community, Paynesville, Liberia</p>
+        </div>
+
+        <div style="background:white;padding:12px;border-radius:8px;box-shadow:0 8px 20px rgba(0,0,0,0.05);">
+          <h3 style="margin:0 0 8px;">FAQ</h3>
+          <p style="margin:0 0 8px;"><strong>Q:</strong> How can I collaborate with you?<br><strong>A:</strong> Use the contact form or message me on Instagram (username: Jaffah).</p>
+          <p style="margin:0 0 8px;"><strong>Q:</strong> Do you accept freelance work?<br><strong>A:</strong> I'm open to small projects and collabs while I learn.</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer style="background:#081d3a;color:#cbd6ff;padding:18px 24px;text-align:center;">
+    <small>© Samuel Kla Dennis Jr</small>
+  </footer>
+
+</body>
+</html>
